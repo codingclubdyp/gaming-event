@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #010717;
+    padding: 20px 20px;
+}
+.nav-logo-img{
+    width: auto;
+    height: 70px;
+}
+
+.footer-text{
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+}
+
+.footer-div{
+    background-color: #03030D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+
+.pink-line-div{
+    height: 3px;
+    /* width: 100px; */
+    margin-top: -10px;
+    margin: 0px 50px;
+    background-color: #C27AC0;
+    border-radius: 100px;
+}
+
+.red-line-div{
+    height: 3px;
+    /* width: 100px; */
+    margin-top: -10px;
+    margin: 0px 50px;
+    background-color: #FC6303;
+    border-radius: 100px;
+}
+
+.white-line-div{
+    height: 3px;
+    /* width: 100px; */
+    margin-top: -10px;
+    margin: 0px 50px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.footer-logo{
+    width: auto;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+@media screen and (max-width: 587px) {
+    .nav-logo-img{
+        width: auto;
+        height: 50px;
+    }
+    .nav-bar1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #010717;
+        padding: 10px 20px;
+    }
+}
+.infor{
+    height: 30px;
+    
+}
+
+@media screen and (max-width: 749px) {
+   .footer-text{
+    font-weight: 200;
+    font-size: 10px;
+   }
+   .footer-logo{
+    height: 20px;
+}
+}
+@media screen and (max-width: 339px) {
+    .footer-text{
+     font-weight: 100;
+     font-size: 7px;
+    }
+    .footer-logo{
+        height: 12px;
+    }
+ }
